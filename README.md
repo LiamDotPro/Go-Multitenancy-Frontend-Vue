@@ -1,4 +1,4 @@
-# golang-multi-vue
+# Go-Multitenancy-frontend-vue
 
 ## Project setup
 ```
