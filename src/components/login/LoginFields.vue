@@ -1,5 +1,5 @@
 <template>
-    <div class="LoginFields">
+    <div id="loginFields">
         <el-form ref="form" :model="form" label-width="">
             <el-input
                     placeholder="Your email address"
@@ -42,17 +42,17 @@
 
 </script>
 
-<style type="scss" scoped>
+<style lang="scss" scoped>
 
     form {
         width: 100%;
+
+        .el-input-group {
+            margin-bottom: 20px;
+        }
     }
 
-    .el-input-group {
-        margin-bottom: 20px;
-    }
-
-    .LoginFields {
+    #loginFields {
         display: flex;
         align-items: center;
         justify-items: center;
